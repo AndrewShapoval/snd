@@ -1,0 +1,19 @@
+.wrapper {
+    /*width: 100vw;*/
+    display: flex;
+    /*position: relative;*/
+    /*align-items: stretch;*/
+    background-color: #383838;
+}
+
+.container {
+    width: 80%;
+    /*transform: translateX(20vw);*/
+    /*transition: 0.5s;*/
+    background-color: #e8e8e8;
+}
+
+.main {
+    width: 100%;
+    /*background-color: #e8e8e8;*/
+}

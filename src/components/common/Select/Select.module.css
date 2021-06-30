@@ -1,0 +1,55 @@
+.select {
+    background-color: inherit;
+    min-width: 100px;
+    cursor: pointer;
+    color: #afafaf;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    margin-left: 16px;
+    position: relative;
+}
+
+.selected {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.selected:hover {
+    color: black;
+}
+
+.selectArrow {
+    height: 100%;
+    width: 30px;
+    /*background-image: url('/icons/triangle.svg');*/
+    background-position: center;
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+.selectContainer {
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+    background-color: white;
+    position: absolute;
+    top: 34px;
+    z-index: 2;
+    visibility: visible;
+    border: 1px solid #afafaf;
+}
+
+.selectItem {
+    padding: 6px 0 6px 14px;
+    margin-bottom: 2px;
+}
+
+.selectItem:hover {
+    background-color: #f5f5f5;
+}
+
+
+
+

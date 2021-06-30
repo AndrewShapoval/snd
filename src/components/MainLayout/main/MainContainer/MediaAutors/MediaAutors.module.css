@@ -1,0 +1,62 @@
+.mediaAutors {
+    width: 50%;
+    min-height: 150px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    display: flex;
+}
+
+@media (max-width: 1095px) {
+    .mediaAutors {
+        width: calc(100% - 30px);
+        margin-bottom: 2px;
+    }
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.titleTextBlock {
+    margin: 20px 20px 20px 98px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 18px;
+}
+
+.text {
+    font-size: 12px;
+    color: #383838;
+}
+
+.button {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 9px 15px 8px 18px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.button:active {
+    opacity: 0.7;
+}
+
+.btnColorSignup {
+    background-color: #9cac2f;
+}
+
+.btnColorWatchTheVideo {
+    background-color: #555555;
+}

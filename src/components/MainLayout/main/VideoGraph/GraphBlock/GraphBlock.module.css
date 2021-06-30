@@ -1,0 +1,111 @@
+.graphBlock {
+    width: 48.5%;
+    height: 260px;
+}
+
+@media (max-width: 1250px) {
+    .graphBlock {
+        width: 100%;
+    }
+}
+
+.headerGraph {
+    height: 50px;
+    background-color: #302f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #abaecc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.aActive {
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+.graphData {
+    height: 210px;
+    background-color: #404153;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delta {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: rotate(0.125turn);
+    background-color: #404153;
+    margin-left: 10%;
+    margin-top: -8px;
+}
+
+.delta2 {
+    margin-left: 34%;
+}
+
+.delta3 {
+    margin-left: 60%;
+}
+
+.delta4 {
+    margin-left: 86%;
+}
+
+.graph {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 59%;
+}
+
+.dataBlock {
+    margin-top: 30px;
+    width: 41%;
+}
+
+.headerData {
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.highDay {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 17px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: normal;
+    color: #a5a8c5;
+}
+
+.metadata {
+
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #a5a8c5;
+}
+
+.line {
+    height: 1px;
+    background-color: #636476;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

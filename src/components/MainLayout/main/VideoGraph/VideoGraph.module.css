@@ -1,0 +1,86 @@
+.videoGraph {
+    width: 100%;
+    background-color: #404153;
+    position: relative;
+}
+
+.headerColor {
+    background-color: #302f3d;
+    position: absolute;
+    height: 50px;
+    width: 10%;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+}
+
+.video {
+    width: 51.5%;
+    height: 260px;
+    background-color: #404153;
+}
+
+@media (max-width: 1250px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .video {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .video {
+        width: 100%;
+    }
+}
+
+.containerSlide {
+    height: 260px;
+}
+
+.slide {
+    position: relative;
+    height: 260px;
+}
+
+.slideImage {
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.button {
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    background-color: #9cac2f;
+    opacity: 0.9;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:active {
+    opacity: 0.7;
+}
+
+.text {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+}

@@ -1,0 +1,91 @@
+.cards {
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 20px;
+}
+
+.avatarName {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #535353;
+    position: relative;
+}
+
+.image {
+    position: absolute;
+}
+
+.name {
+    margin-left: 48px;
+}
+
+.text {
+    color: #383838;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 1.54;
+    letter-spacing: 0.3px;
+}
+
+.cardActive {
+    width: 110%;
+    min-height: 120%;
+    margin-left: -15px;
+    margin-top: -15px;
+    background-color: #ffffff;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 7.5px 25.5px 0 rgba(53, 63, 77, 0.2);
+}
+
+.containerActive {
+    margin: 20px 60px 20px 20px;
+}
+
+.messageLike {
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.message {
+    height: 50%;
+    background-color: #535667;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.like {
+    height: 50%;
+    background-color: #9cac2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textStyle {
+    font-size: 9px;
+    font-weight: normal;
+    color: #ffffff;
+}

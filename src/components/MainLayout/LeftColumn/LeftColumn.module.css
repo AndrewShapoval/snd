@@ -1,0 +1,15 @@
+.leftColumnBlock {
+    width: 20%;
+    min-width: 220px;
+    /*position: absolute;*/
+}
+
+.leftColumn {
+    background-color: #383838;
+    display: flex;
+}
+
+.container {
+    margin-top: 40px;
+    margin-left: 20px;
+}
